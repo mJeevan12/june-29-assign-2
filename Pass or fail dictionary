@@ -9,7 +9,7 @@ for i in range(n):
    try:
       c=input() 
       if c in d:
-         print(c+'='+d[c]) 
+         print(c+''+d[c]) 
       else:
          print("no") 
    except:
